@@ -1,11 +1,13 @@
-for(let i = 1; i <= 100; i ++)
-  if(i%15 === 0){
+let num = Math.floor(Math.random() * 15);
+switch (num){
+}
+  if(num%15 === 0){
   console.log("3と5の倍数です");
-  }else if(i%3 === 0){
+  }else if(num%3 === 0){
   console.log("3の倍数");
-  }else if(i%5 === 0){
+  }else if(num%5 === 0){
   console.log("5の倍数");
   }else{
-  console.log(i);
+  console.log(num);
   }
   
