@@ -7,8 +7,8 @@ btn.addEventListener("click", () => {
   ,2000)});
 
   function count() {
-    console.log("3秒経過しました。");
+    console.log("2秒経過しました。");
 }
 
 // 3000ミリ秒（＝3秒）後にcountを実行
-setTimeout(count, 3000);
+setTimeout(count, 2000);
